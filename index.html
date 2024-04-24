@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="./favicon.ico?v=2" />
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Calculator made with HTML,CSS,Javascript & Bootstrap"
+    />
+    <meta name="keywords" content="Calculator, Math, Javascript" />
+    <meta name="author" content="Patrik Benczik" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator | Patrik Benczik</title>
+  </head>
+  <body>
+    <div id="content">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-7 col-md-7">
+            <div id="inside-container">
+              <div id="screen">
+                <p id="operator"></p>
+                <h1 id="display">0</h1>
+              </div>
+              <div class="wrapper">
+                <div id="one" class="btn">
+                  <h1>1</h1>
+                </div>
+
+                <div id="two" class="btn">
+                  <h1>2</h1>
+                </div>
+
+                <div id="three" class="btn">
+                  <h1>3</h1>
+                </div>
+
+                <div id="add" class="btn">
+                  <h1>+</h1>
+                </div>
+
+                <div id="four" class="btn">
+                  <h1>4</h1>
+                </div>
+
+                <div id="five" class="btn">
+                  <h1>5</h1>
+                </div>
+
+                <div id="six" class="btn">
+                  <h1>6</h1>
+                </div>
+
+                <div id="subtract" class="btn">
+                  <h1>-</h1>
+                </div>
+
+                <div id="seven" class="btn">
+                  <h1>7</h1>
+                </div>
+
+                <div id="eight" class="btn">
+                  <h1>8</h1>
+                </div>
+
+                <div id="nine" class="btn">
+                  <h1>9</h1>
+                </div>
+
+                <div id="multiply" class="btn">
+                  <h1>*</h1>
+                </div>
+
+                <div id="sqrt" class="btn">
+                  <h1>&radic;</h1>
+                </div>
+
+                <div id="pow" class="btn">
+                  <h1>^</h1>
+                </div>
+
+                <div id="mod" class="btn">
+                  <h1>%</h1>
+                </div>
+
+                <div id="factorial" class="btn">
+                  <h1>!</h1>
+                </div>
+
+                <div id="clear" class="btn">
+                  <h1>CE</h1>
+                </div>
+
+                <div id="zero" class="btn">
+                  <h1>0</h1>
+                </div>
+
+                <div id="equal" class="btn">
+                  <h1>=</h1>
+                </div>
+
+                <div id="divide" class="btn">
+                  <h1>/</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-5 col md-5">
+            <div id="disclaimer">
+              <div class="note">
+                <h5>
+                  (*)<span>NOTE</span>: The calculator is meant to be used step
+                  by step in the following sequence:<br />
+                  <b>number->operator->number->EQUAL</b>. Then proceed further.
+                </h5>
+              </div>
+              <hr />
+              <div class="note">
+                <h5>
+                  (**)<span>NOTE</span>: For sqrt(&radic;) and factorial(!), the
+                  step by step sequence shall be <b>number->operator->EQUAL</b>.
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      <div class="container-fluid">
+        <h6 class="display-6">
+          Copyright &copy; Patrik Benczik 2024 All Rights Reserved
+        </h6>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
